@@ -19,11 +19,12 @@ public class Ghost2 : MonoBehaviour
 
     // Update is called once per frame
 
-    void OnCollisionEnter(Collision collision)
+
+    void OnTriggerEnter(Collider other)
     {
-        if (collision.gameObject.tag == "Player")
+        if (other.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
+            Destroy(other.gameObject);
         }
     }
 

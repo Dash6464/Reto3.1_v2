@@ -1,0 +1,608 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1698366206174055, "dur": 988699, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698366206174399, "dur": 2970, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698366206177371, "dur": 46695, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698366206224120, "dur": 368021, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698366206592143, "dur": 569745, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698366207161891, "dur": 863, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698366207163729, "dur": 26, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1698366206394735, "dur": 174096, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698366206396210, "dur": 71122, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698366206543604, "dur": 6678, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698366206550286, "dur": 18533, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698366206551321, "dur": 16283, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698366206576181, "dur": 2634, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1698366206574240, "dur": 4638, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698366207164095, "dur": 463, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1698366206653792, "dur":71740, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366206725542, "dur":57, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1698366206725613, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1698366206725635, "dur":606, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1698366206726292, "dur":927, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366206727219, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144004, "dur":365, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144369, "dur":80, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144449, "dur":13, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144462, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144475, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144477, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144483, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144485, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144491, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144493, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144499, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144501, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144506, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144508, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144515, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144517, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144523, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144525, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144531, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144532, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144538, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144539, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144546, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144547, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144553, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144554, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144560, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144562, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144567, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144569, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144575, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144577, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144582, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144602, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207144626, "dur":2839, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1698366206726619, "dur":609, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206727230, "dur":7850, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206735096, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698366206735115, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206736426, "dur":813, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698366206737244, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698366206737323, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206738075, "dur":3993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1698366206742071, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1698366206742175, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206742234, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206742788, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1698366206746685, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D.exe" }}
+,{ "pid":12345, "tid":1, "ts":1698366206746799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206746809, "dur":6578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D.exe" }}
+,{ "pid":12345, "tid":1, "ts":1698366206753475, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206753563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206753575, "dur":6068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206759730, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206759831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206759843, "dur":6182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206766116, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206766231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206766243, "dur":3685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206770006, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206770093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206770102, "dur":6845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206777030, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206777112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206777122, "dur":8503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206786584, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206786916, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206787296, "dur":22018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206809390, "dur":119684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206929085, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1698366206929105, "dur":8848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1698366206938068, "dur":205946, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698366206726622, "dur":612, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698366206727234, "dur":8049, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698366206735284, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698366206735383, "dur":340, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698366206735729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698366206789613, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1698366206793076, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698366206793208, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698366206793218, "dur":13994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698366206807304, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698366206807394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698366206807404, "dur":9936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698366206817425, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698366206817511, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1698366206817520, "dur":107192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1698366206924826, "dur":219201, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206726675, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206727249, "dur":7865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206735114, "dur":565, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1698366206735680, "dur":805, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206736493, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206742145, "dur":3755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1698366206746002, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206746120, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206746184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206746191, "dur":22638, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206769094, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206769213, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206769221, "dur":4444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206773748, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206773827, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206773838, "dur":4600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206778538, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206778652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206778663, "dur":7496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206786271, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206786367, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206786375, "dur":31377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206817826, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206817902, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206817912, "dur":24472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206842453, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206842525, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206842534, "dur":6600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206849213, "dur":107438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206956799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1698366206956813, "dur":3341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1698366206960252, "dur":183765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698366206726667, "dur":576, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698366206727243, "dur":7932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698366206735175, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1698366206735297, "dur":286, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698366206735593, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698366206785363, "dur":3412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1698366206788874, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698366206789077, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698366206789086, "dur":6332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698366206795497, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698366206795573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698366206795582, "dur":12959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698366206808647, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698366206808737, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1698366206808932, "dur":115686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1698366206924697, "dur":219310, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206726709, "dur":547, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206727256, "dur":7832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206735096, "dur":132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1698366206735228, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206735307, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206742081, "dur":3951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1698366206746113, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1698366206746193, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206746247, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206746253, "dur":7622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1698366206754117, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206754268, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206754279, "dur":4820, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206759196, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206759299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206759310, "dur":4218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206763929, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206764062, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206764117, "dur":3588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206767789, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206767886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206767896, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206769974, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206770084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206770094, "dur":5569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206775746, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206775949, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206775959, "dur":5626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206781657, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206781729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206781779, "dur":5531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206787398, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206787515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206787524, "dur":6629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206794235, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206794314, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206794323, "dur":14405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206808802, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206808914, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206808924, "dur":15300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206824305, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206824390, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206824400, "dur":4347, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206828820, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206828898, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206828906, "dur":7692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206836662, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206836727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206836736, "dur":4907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206841713, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206841797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206841807, "dur":5193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206847090, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206847169, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206847180, "dur":4925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1698366206852200, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698366206852344, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1698366206852353, "dur":7248, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":5, "ts":1698366206904188, "dur":239851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698366206726748, "dur":518, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698366206727266, "dur":7854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698366206735120, "dur":436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1698366206735557, "dur":229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698366206735797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698366206792413, "dur":1991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1698366206794481, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698366206794557, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698366206794565, "dur":11857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698366206806492, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698366206806571, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698366206806581, "dur":9698, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698366206816356, "dur":325568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698366207141931, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1698366207141943, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":6, "ts":1698366207143948, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1698366207143950, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206726782, "dur":489, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206727271, "dur":7812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206735096, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698366206735223, "dur":233, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206735515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206783728, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1698366206785991, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698366206786087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206786096, "dur":6817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698366206792982, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698366206793058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206793069, "dur":5340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698366206798533, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698366206798617, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206798626, "dur":14397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698366206813105, "dur":144388, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698366206957501, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1698366206957512, "dur":3680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1698366206961277, "dur":182751, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206726808, "dur":472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206727280, "dur":7802, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206735096, "dur":698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1698366206735794, "dur":735, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206736573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206741501, "dur":1943, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":8, "ts":1698366206743537, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1698366206743627, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206743687, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206743697, "dur":15380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1698366206759170, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206759297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206759310, "dur":9821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206769210, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206769291, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206769301, "dur":6237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206775626, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206775759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206775770, "dur":6193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206782040, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206782113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206782122, "dur":7810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206790021, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206790140, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206790149, "dur":11860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206802116, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206802418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206802428, "dur":40495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206843040, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206843136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206843146, "dur":7563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1698366206850789, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206850879, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206850887, "dur":2110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206853072, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206853143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206853150, "dur":4386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206857661, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":8, "ts":1698366206857735, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206857744, "dur":2375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":8, "ts":1698366206860203, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698366206860295, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206860306, "dur":2713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":8, "ts":1698366206863109, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206863245, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206863256, "dur":2439, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206865781, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1698366206865871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206865883, "dur":1962, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":8, "ts":1698366206867930, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1698366206868293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206868302, "dur":2649, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1698366206871030, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206871110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206871121, "dur":2136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206873334, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206873414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206873424, "dur":2279, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level5.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206875796, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206875891, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206875901, "dur":2579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level4.resS" }}
+,{ "pid":12345, "tid":8, "ts":1698366206878561, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1698366206878640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206878651, "dur":8082, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1698366206886812, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1698366206886887, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206886894, "dur":2770, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1698366206889754, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1698366206889847, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206889858, "dur":2964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1698366206892928, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1698366206893317, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1698366206893329, "dur":2840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1698366206896344, "dur":247669, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206726833, "dur":460, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206727293, "dur":8307, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206735601, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1698366206735721, "dur":704, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206736461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206741528, "dur":3246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1698366206744874, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206744986, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206745052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206745512, "dur":2403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206748000, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206748084, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206750932, "dur":2974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206753990, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206754071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206754083, "dur":5071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206759244, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206759341, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206759351, "dur":3789, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206763235, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206763332, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366206763343, "dur":5851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366206769640, "dur":259752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366207029401, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1698366207029418, "dur":2735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1698366207032211, "dur":111819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206726863, "dur":440, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206727303, "dur":8177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206735481, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1698366206735589, "dur":829, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206736430, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206741446, "dur":2325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1698366206744087, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1698366206744178, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206744244, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206744254, "dur":3528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1698366206747880, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1698366206747970, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206750848, "dur":11457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":10, "ts":1698366206762847, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206762960, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206762971, "dur":5954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206769011, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206769089, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206769099, "dur":9371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206778557, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206778660, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206778670, "dur":4949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206783699, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206783784, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206784012, "dur":6429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206790518, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206790602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206790610, "dur":8269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206798973, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206799206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206799216, "dur":16886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206816187, "dur":126544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206942739, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1698366206942753, "dur":3507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":10, "ts":1698366206946466, "dur":197549, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206726902, "dur":406, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206727308, "dur":8120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206735432, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1698366206735556, "dur":167, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206735729, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206790965, "dur":2894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1698366206793947, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206794032, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206794041, "dur":10786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206804894, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206804958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206805013, "dur":11397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206816497, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206816582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206816593, "dur":22382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206839067, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206839152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206839162, "dur":9421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206848676, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206848890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206848901, "dur":8851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1698366206857827, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698366206857899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1698366206857907, "dur":83368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets3.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1698366206941367, "dur":202662, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698366206726934, "dur":381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698366206727315, "dur":8050, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698366206735369, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1698366206735490, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698366206735700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698366206788072, "dur":2252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1698366206790409, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698366206790498, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698366206790507, "dur":14290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698366206804880, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698366206804957, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1698366206805016, "dur":115837, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1698366206920947, "dur":223054, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698366206726962, "dur":359, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698366206727321, "dur":8022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698366206735347, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1698366206735473, "dur":214, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698366206735698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698366206786693, "dur":2423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":13, "ts":1698366206789217, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698366206789313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698366206789322, "dur":14529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698366206803951, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698366206804133, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698366206804143, "dur":38257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698366206842462, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698366206842525, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1698366206842534, "dur":81267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":13, "ts":1698366206923888, "dur":220122, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206726988, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206727329, "dur":7756, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206735096, "dur":195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1698366206735291, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206735430, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206741512, "dur":3844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1698366206745444, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206745528, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206745593, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206745671, "dur":5584, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206751392, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206751524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206751977, "dur":2101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206754162, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206754258, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206754268, "dur":3905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206758275, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206758397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206758411, "dur":2834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206761329, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206761418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206761430, "dur":3055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206764581, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206764679, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206764689, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206768265, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206768355, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206768364, "dur":2164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206770612, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206770701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206770710, "dur":5664, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206776455, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206776535, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206776544, "dur":5125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206781753, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206781842, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206781851, "dur":5452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206787395, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206787474, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206787482, "dur":6300, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206793861, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206793945, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206793957, "dur":15550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206809592, "dur":169778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206979379, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1698366206979394, "dur":3319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":14, "ts":1698366206982802, "dur":161202, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206727013, "dur":321, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206727334, "dur":7753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206735096, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1698366206735257, "dur":274, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206735540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206783483, "dur":2362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1698366206785926, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206786008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206786018, "dur":5524, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206791626, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206791707, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206791716, "dur":6064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206797859, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206797938, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206797948, "dur":15147, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206813181, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206813264, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206813275, "dur":3521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206816869, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206816945, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206816953, "dur":6064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206823100, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206823176, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206823187, "dur":5196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206828451, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206828523, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206828533, "dur":7174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206835793, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206835881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206835891, "dur":3725, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206839693, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206839805, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206839818, "dur":4509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206844415, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206844504, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206844516, "dur":3848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206848447, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206848532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206848542, "dur":9485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":15, "ts":1698366206858100, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":15, "ts":1698366206858179, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206858187, "dur":5625, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":15, "ts":1698366206863893, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1698366206863971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206863980, "dur":2172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":15, "ts":1698366206866241, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1698366206866328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206866337, "dur":2710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":15, "ts":1698366206869143, "dur":5445, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1698366206874594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206874605, "dur":1938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":15, "ts":1698366206876619, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level4" }}
+,{ "pid":12345, "tid":15, "ts":1698366206876696, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206876704, "dur":2245, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level4" }}
+,{ "pid":12345, "tid":15, "ts":1698366206879035, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level2.resS" }}
+,{ "pid":12345, "tid":15, "ts":1698366206879134, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206879144, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level2.resS" }}
+,{ "pid":12345, "tid":15, "ts":1698366206883223, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level2" }}
+,{ "pid":12345, "tid":15, "ts":1698366206883312, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206883320, "dur":5679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level2" }}
+,{ "pid":12345, "tid":15, "ts":1698366206889099, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":15, "ts":1698366206889177, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206889188, "dur":2635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level0.resS" }}
+,{ "pid":12345, "tid":15, "ts":1698366206891898, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1698366206891977, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1698366206891986, "dur":2185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":15, "ts":1698366206894253, "dur":249744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206727043, "dur":298, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206727341, "dur":7980, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206735324, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1698366206735439, "dur":232, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206735717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206788171, "dur":3094, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1698366206791364, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698366206791447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206791456, "dur":10249, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698366206801812, "dur":197, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698366206802016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206802027, "dur":40449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698366206842551, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698366206842628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206842637, "dur":7399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1698366206850111, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1698366206850189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206850293, "dur":2433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":16, "ts":1698366206852804, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":16, "ts":1698366206852994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206853002, "dur":3096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":16, "ts":1698366206856183, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":16, "ts":1698366206856269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206856280, "dur":10990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":16, "ts":1698366206867352, "dur":337, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":16, "ts":1698366206867696, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206867709, "dur":3613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":16, "ts":1698366206871408, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1698366206871496, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206871504, "dur":2267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1698366206873844, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level5" }}
+,{ "pid":12345, "tid":16, "ts":1698366206873924, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206873932, "dur":2839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level5" }}
+,{ "pid":12345, "tid":16, "ts":1698366206876852, "dur":5964, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level3.resS" }}
+,{ "pid":12345, "tid":16, "ts":1698366206882884, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206882898, "dur":3603, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level3.resS" }}
+,{ "pid":12345, "tid":16, "ts":1698366206886589, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level1.resS" }}
+,{ "pid":12345, "tid":16, "ts":1698366206886664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206886677, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/level1.resS" }}
+,{ "pid":12345, "tid":16, "ts":1698366206891176, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1698366206891269, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1698366206891279, "dur":2777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/danie/Desktop/Nueva carpeta/Pacman-3D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1698366206894148, "dur":249858, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1698366207151611, "dur":2752, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1698366207164650, "dur": 1184, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1698366207163713, "dur": 2201, "ph": "X", "name": "Write chrome-trace events", "args": {} },

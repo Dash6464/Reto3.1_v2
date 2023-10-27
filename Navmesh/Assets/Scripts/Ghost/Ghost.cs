@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ghost : MonoBehaviour
 {
@@ -14,6 +15,7 @@ public class Ghost : MonoBehaviour
         dest2 = agente2.destination;
     }
 
+    // Update is called once per frame
     void Update()
     {
         if (Vector3.Distance(dest2, target2.position) > 1.0f)
@@ -22,23 +24,12 @@ public class Ghost : MonoBehaviour
             agente2.destination = dest2;
         }
     }
-    /*
-    void OnTriggerEnter(Collision collision)
+
+    void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Detectado");
-        if (collision.gameObject.tag == "Player")
-        {
-            Debug.Log("Detectado al jugador");
-            Destroy(collision.gameObject);
-        }
-    }
-    */
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("Detectado");
         if (other.gameObject.tag == "Player")
         {
-            Debug.Log("Detectado al jugador");
+            SceneManager.LoadScene("GameOver");
             Destroy(other.gameObject);
         }
     }

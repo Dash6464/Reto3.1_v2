@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Ghost2 : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class Ghost2 : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
+            SceneManager.LoadScene("GameOver");
             Destroy(other.gameObject);
         }
     }
